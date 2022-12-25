@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		009ADB272958A2FE00B454B7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 009ADB262958A2FE00B454B7 /* FirebaseAuth */; };
 		009ADB292958A2FE00B454B7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 009ADB282958A2FE00B454B7 /* FirebaseFirestore */; };
-		009ADB2B2958A6AC00B454B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 009ADB2A2958A6AC00B454B7 /* GoogleService-Info.plist */; };
 		00AD43B629569C8500A25A46 /* SwiftUIMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD43B529569C8500A25A46 /* SwiftUIMessengerApp.swift */; };
 		00AD43B829569C8500A25A46 /* ConversationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD43B729569C8500A25A46 /* ConversationListView.swift */; };
 		00AD43BA29569C8600A25A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AD43B929569C8600A25A46 /* Assets.xcassets */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		009ADB2A2958A6AC00B454B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00AD43B229569C8500A25A46 /* SwiftUI-Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Messanger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AD43B529569C8500A25A46 /* SwiftUIMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMessengerApp.swift; sourceTree = "<group>"; };
 		00AD43B729569C8500A25A46 /* ConversationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListView.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		00AD43C529569CF300A25A46 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				009ADB2A2958A6AC00B454B7 /* GoogleService-Info.plist */,
 				00AD43B929569C8600A25A46 /* Assets.xcassets */,
 			);
 			path = Resourses;
@@ -209,7 +206,6 @@
 			files = (
 				00AD43BD29569C8600A25A46 /* Preview Assets.xcassets in Resources */,
 				00AD43BA29569C8600A25A46 /* Assets.xcassets in Resources */,
-				009ADB2B2958A6AC00B454B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
